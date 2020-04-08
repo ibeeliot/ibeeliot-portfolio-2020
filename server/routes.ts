@@ -5,5 +5,6 @@ const nextRoutes = require("next-routes");
 const routes = (module.exports = nextRoutes());
 
 routes.add("home", "/");
+routes.add("/ibeeliotDev2020", "/ibeeliotDev2020/index");
 
 export default routes;
